@@ -51,5 +51,18 @@ We thank these great works and open-source codebases:
 [MMDetection3d](https://github.com/open-mmlab/mmdetection3d), [StreamPETR](https://github.com/exiawsh/StreamPETR), [DETR3D](https://github.com/WangYueFt/detr3d), [PETR](https://github.com/megvii-research/PETR).
 
 
+## Citation
+
+If you find RayDN is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```bibtex
+@article{liu2024ray,
+  title={Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection},
+  author={Liu, Feng and Huang, Tengteng and Zhang, Qianjing and Yao, Haotian and Zhang, Chi and Wan, Fang and Ye, Qixiang and Zhou, Yanzhao},
+  journal={arXiv preprint arXiv:2402.03634},
+  year={2024}
+}
+```
+
+
 
 
