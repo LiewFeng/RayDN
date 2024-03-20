@@ -1,6 +1,6 @@
 <div align="center">
-<h1>RayDN</h1>
-<h3>Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection</h3>
+<h1>Ray Denoising (RayDN): Depth-aware Hard Negative Sampling  <br />
+for Multi-view 3D Object Detection</h1>
 </div>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/beam-beta-distribution-ray-denoising-for/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=beam-beta-distribution-ray-denoising-for)
@@ -13,7 +13,7 @@
 
 ## Introduction
 
-This repository is an official implementation of [Ray Denoising](https://arxiv.org/abs/2402.03634).
+This repository is an official implementation of [Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection](https://arxiv.org/abs/2402.03634). This repository contains Pytorch training code, evaluation code and pre-trained models.
 
 
 ## Getting Started
@@ -34,10 +34,10 @@ tools/dist_test.sh projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py work_di
 
 
 ## Results on NuScenes Val Set.
-| Model | Setting |Pretrain| Lr Schd | NDS| mAP| Config |
-| :---: | :---: | :---: | :---: | :---:|:---:| :---: |
-| RayDN | R50 - 428q | NuImg | 60ep | 56.3 | 46.9 | [config](projects/configs/RayDN/raydn_r50_flash_704_bs2_seq_428q_nui_60e.py) |
-| RayDN | EVA02-L - 900q | EVA02 | 24ep | 62.4 | 54.1 | [config](projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py) |
+| Model | Setting |Pretrain| Lr Schd | NDS| mAP| Config | Download |
+| :---: | :---: | :---: | :---: | :---:|:---:| :---: | :---: |
+| RayDN | R50 - 428q | NuImg | 60ep | 56.1 | 47.1 | [config](projects/configs/RayDN/raydn_r50_flash_704_bs2_seq_428q_nui_60e.py) | [ckpt](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EYtElqwLxxRMqewZ0qZIz2wBmfLoPrOe3YIVdlLVZSKGcQ?e=wdbkHi) |
+| RayDN | EVA02-L - 900q | EVA02 | 24ep | 62.4 | 54.1 | [config](projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py) |[ckpt](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/ERYKTAGGSKRFmrDoF6VnUf8BKw96Cw-rNyvbFFrouQWJBw?e=SYwSug) |
 
 
 
@@ -47,7 +47,6 @@ tools/dist_test.sh projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py work_di
 ## Acknowledgements
 
 We thank these great works and open-source codebases:
-
 [MMDetection3d](https://github.com/open-mmlab/mmdetection3d), [StreamPETR](https://github.com/exiawsh/StreamPETR), [DETR3D](https://github.com/WangYueFt/detr3d), [PETR](https://github.com/megvii-research/PETR).
 
 
