@@ -1,6 +1,5 @@
 <div align="center">
-<h1>Ray Denoising (RayDN): Depth-aware Hard Negative Sampling  <br />
-for Multi-view 3D Object Detection</h1>
+<h1>Ray Denoising (RayDN): Depth-aware Hard Negative Sampling  for Multi-view 3D Object Detection</h1>
 </div>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/beam-beta-distribution-ray-denoising-for/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=beam-beta-distribution-ray-denoising-for)
