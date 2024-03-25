@@ -37,7 +37,7 @@ tools/dist_test.sh projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py work_di
 | Model | Setting |Pretrain| Lr Schd | NDS| mAP| Config | Download |
 | :---: | :---: | :---: | :---: | :---:|:---:| :---: | :---: |
 | RayDN | R50 - 428q | NuImg | 60ep | 56.1 | 47.1 | [config](projects/configs/RayDN/raydn_r50_flash_704_bs2_seq_428q_nui_60e.py) | [ckpt](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/EYtElqwLxxRMqewZ0qZIz2wBmfLoPrOe3YIVdlLVZSKGcQ?e=wdbkHi) |
-| RayDN | EVA02-L - 900q | EVA02 | 24ep | 62.4 | 54.1 | [config](projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py) |[ckpt](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/ERYKTAGGSKRFmrDoF6VnUf8BKw96Cw-rNyvbFFrouQWJBw?e=SYwSug) |
+| RayDN | EVA02-L - 900q | EVA02 | 24ep | 62.4 | 54.1 | [config](projects/configs/RayDN/raydn_eva02_800_bs2_seq_24e.py) |[ckpt](https://mailsucasaccn-my.sharepoint.com/:u:/g/personal/liufeng20_mails_ucas_ac_cn/ERYKTAGGSKRFmrDoF6VnUf8BKw96Cw-rNyvbFFrouQWJBw?e=Dkcil3) |
 
 
 
