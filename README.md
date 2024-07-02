@@ -13,7 +13,7 @@
 
 ## Introduction
 
-This repository is an official implementation of [Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection](https://arxiv.org/abs/2402.03634). This repository contains Pytorch training code, evaluation code and pre-trained models.
+This repository is an official implementation of our ECCV 2024 paper [Ray Denoising: Depth-aware Hard Negative Sampling for Multi-view 3D Object Detection](https://arxiv.org/abs/2402.03634). This repository contains Pytorch training code, evaluation code and pre-trained models.
 
 
 ## Getting Started
