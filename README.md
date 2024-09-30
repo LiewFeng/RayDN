@@ -4,6 +4,7 @@
 </div>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/beam-beta-distribution-ray-denoising-for/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=beam-beta-distribution-ray-denoising-for)
+<a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6549_ECCV_2024_paper.php"><img src="https://img.shields.io/badge/ECCV2024-Paper-<color>"></a>
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2402.03634)
 
 [<video src="figs/RayDN.mp4"></video>](https://github.com/LiewFeng/RayDN/assets/42316773/de2c229b-0f6a-4456-b72c-508ea6161198)
